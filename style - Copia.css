@@ -1,0 +1,87 @@
+body{
+    font-weight: 400; /*400 peso normal 700 negrito*/
+    font-family: Lato, Helvetica, sans-serif; /*Vai tentar usar uma fonte se não tiver vai para a próxima*/
+    font-size: 15px;
+    line-height: 2.2em; /*Espaçamento entre linhas*/
+    color: #818181; /*Cor em hexadecimal*/
+    margin: 0; /*Zera a margem da página*/
+}
+
+header{
+    background-color: #f4511e;
+}
+
+section,footer{
+    margin: 40px;
+}
+
+h1{
+    font-size: 63px;
+    font-weight: 100;
+    color: #303030;
+    padding: 25px; /*Cria a margem para dentro*/
+    color: white;
+    text-align: center; /*Centralizar o texto*/
+}
+
+h2{
+    font-size: 24px;
+    text-transform: uppercase; /*Trnasforma o texto para maiúsculo*/
+    color: #303030;
+    font-weight: 600;
+}
+
+nav li a{ /*O elemento a está dentro do elemento li e o elemento li está dentro do elemento nav*/
+    padding: 10px;
+    color: white;
+    text-decoration: none; /*Para este caso específico retirou a linha abaixo da palavra*/
+}
+
+nav li{
+    float: left;
+}
+
+nav ul{
+    float: right;
+    list-style: none; /*Para este caso retirou as bolinhas que tinha da lista*/
+}
+
+nav{
+    font-size: 12px;
+    letter-spacing: 4px; /*Espaçamento entre as letras*/
+    height: 50px; /*Altura*/
+    background-color: #cc4545;
+    padding-right: 40px;
+}
+
+table{
+    width: 100%;
+}
+
+table td{
+    color: #303030;
+    padding: 5px;
+}
+
+table tr:nth-child(even){/*Pseudo classe, linhas pares*/
+    background-color: #e9e9e9;
+}
+
+table tr:nth-child(odd){/*Pseudo classe, linhas ímpar*/
+    background-color: #bdbdbdbd;
+}
+
+table thead th{
+    background-color: #f4511e;
+    color: white;
+}
+
+/*Para selecionar um identificador deve usar o #, o ponto pega uma classe*/
+#pacotes .figuras figure{
+    display: inline-block; /*Deixas as imagens lado a lado em formato de bloco*/
+}
+
+#pacotes .figuras, #pacotes .videos{
+    text-align: center;
+}
+

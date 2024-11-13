@@ -1,0 +1,25 @@
+h1{
+    font-size: 63px;
+    font-weight: 100;
+    color: #303030;
+    padding: 25px; /*Cria a margem para dentro*/
+    color: white;
+    text-align: center; /*Centralizar o texto*/
+}
+
+h2{
+    font-size: 24px;
+    text-transform: uppercase; /*Trnasforma o texto para maiúsculo*/
+    color: #303030;
+    font-weight: 600;
+}
+
+.carousel-caption h5{
+    font-size: 80px;
+    color: #ffc107;
+    text-shadow: 2px 2px 2px black;
+}
+
+.modal-header h1{
+    color: black;
+}
